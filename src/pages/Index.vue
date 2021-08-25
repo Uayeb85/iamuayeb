@@ -13,7 +13,7 @@
             <div class="lg:w-1/4 md:w-1/2 p-4 w-full"
               v-for="project in $page.allProject.edges.slice(0,8)"
               :key="project.id">
-              <g-link :to="project.node.path"
+              <g-link :to="project.node.link"
                       class="block relative h-48 rounded overflow-hidden">
                 <g-image :alt="project.node.title" class="object-cover object-center w-full h-full block" :src="project.node.featuredImage"/>
               </g-link>
@@ -38,8 +38,8 @@ query{
         title
         featuredImage
         id
-        path
         genre
+        link
       }
     }
   }
