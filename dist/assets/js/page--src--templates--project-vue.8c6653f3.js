@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{"1tub":function(e,t,n){"use strict";n.r(t);var l=n("KHd+"),u=Object(l.a)({},(function(){var e=this.$createElement,t=this._self._c||e;return t("layout",[t("div",[this._v("\n        hola desde Project.vue Template\n    ")])])}),[],!1,null,null,null);t.default=u.exports}}]);
